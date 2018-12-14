@@ -1,1 +1,1 @@
-# RPSgame
+## <%= appname %>
