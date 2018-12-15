@@ -1,15 +1,5 @@
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-h1 {
+.title {
+  text-align: center;
   text-transform: uppercase;
+  background: chartreuse;
 }
-
-img {
-  max-width: 100%;
-}
-
