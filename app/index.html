@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
+  <head>
+    <div class="title"><h1>Rock Paper Scissors</h1></div>
+  </head>
   <body>
-    <div class="title">Rock Paper Scissors</div>
-    <dic class="score"></dic>
-    <script src="dist/bundle.js"></script>
+    <!-- This is the score keeper of the teams -->
+    <div class="team">
+      <div class="tag">You</div>
+      <span class="human">0</span>:<span class="computer">0</span>
+      <div class="tag">comp</div>
+    </div>
+    <!-- This shows the output the computer and you picked -->
+    <div class="output">
+      <div class="human-output">hand</div>
+      <div class="computer-output">hand</div>
+    </div>
+    <!-- This shows if you won the match or not -->
+    <div class="result">
+      <div class="human-result">result</div>
+      <div class="computer-result">result</div>
+    </div>
+    <!-- this is the choices you can choose to play -->
+    <div class="choices">The diffrent choices</div>
   </body>
+  <script src="dist/bundle.js"></script>
 </html>
