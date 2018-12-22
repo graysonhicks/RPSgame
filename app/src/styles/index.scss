@@ -1,20 +1,34 @@
-.title {
-  text-align: center;
-  text-transform: uppercase;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
   background: white;
-  color: black;
+  tec
+}
+.header>h1 {
+  color:  white;
 }
 
 body {
   background-color: rgb(43, 57, 88);
   color: white;
 }
-.team {
+
+.score {
   text-align: center;
 }
+.human {
+  align-items: flex;
+}
+.computer {
+  align-self: flex;
+}
+
 .output {
   background-color: green;
-  display: inlinr;
+  display: 25%;
   text-align: center;
 }
 .result {
