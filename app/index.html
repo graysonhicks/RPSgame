@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-  </head>
-  <header><h1>Rock Paper Scissors</h1></header>
 
-  <body>
+<head>
+  <meta charset="utf-8" />
+</head>
+<header>
+  <h1>Rock Paper Scissors</h1>
+</header>
+
+<body>
+  <div class="container">
     <!-- This is the score keeper of the teams -->
     <div class="score">
-      <div class="tag">You</div>
+      <div class="tag">Human</div>
       <div class="scoreboard">0:0</div>
-      <div class="tag">comp</div>
+      <div class="tag">Computer</div>
     </div>
     <!-- This shows the output the computer and what you picked -->
-    <div class="output">
-      <div class="human-output">hand</div>
-      <div class="computer-output">hand</div>
+    <div class="row">
+      <div class="col">
+        <img class="output" src="src/images/rock.jpg" alt="rock">
+      </div>
+      <div class="col">
+        <img class="output" src="src/images/rock.jpg" alt="rock">
+      </div>
     </div>
     <!-- This shows if you won the match or not -->
     <div class="result">result</div>
     <!-- this is the choices you can choose to play -->
-    <div class="choice">
-      <div class="rock">rock</div>
-      <div class="paper">paper</div>
-      <div class="scissor">scissor</div>
-    </div>
-  </body>
 
-  <script src="dist/bundle.js"></script>
+    <div class="row">
+      <div class="col">
+        <img class="choice" src="src/images/rock.jpg" alt="rock">
+      </div>
+      <div class="col">
+        <img class="choice" src="src/images/paper.jpg" alt="paper">
+      </div>
+      <div class="col">
+        <img class="choice" src="src/images/scissor.jpg" alt="scissor">
+      </div>
+    </div>
+
+  </div>
+</body>
+
+<script src="dist/bundle.js"></script>
+
 </html>
