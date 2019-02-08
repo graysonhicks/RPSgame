@@ -13,20 +13,20 @@
     <!-- This is the score keeper of the teams -->
     <div class="score">
       <div class="tag">Human</div>
-      <div class="scoreboard">0:0</div>
+      <div class="scoreboard"><span id="hScore">0</span>:<span id="cScore">0</span></div>
       <div class="tag">Computer</div>
     </div>
     <!-- This shows the output the computer and what you picked -->
     <div class="row">
       <div class="col">
-        <img class="output" src="src/images/rock.jpg" alt="rock">
+        <img class="output" id="hResultImage" src="src/images/rock.jpg" alt="rock">
       </div>
       <div class="col">
-        <img class="output" src="src/images/rock.jpg" alt="rock">
+        <img class="output" id="cResultImage" src="src/images/rock.jpg" alt="rock">
       </div>
     </div>
     <!-- This shows if you won the match or not -->
-    <div class="result">result</div>
+    <div class="resultstyle" id="result">result</div>
     <!-- this is the choices you can choose to play -->
 
     <div class="row">
